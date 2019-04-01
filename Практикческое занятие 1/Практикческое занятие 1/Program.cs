@@ -15,7 +15,6 @@ namespace Практикческое_занятие_1
             sasha.GetInfo();
         }
 
-
         class User
         {
             public string Name { get; set; }
@@ -40,6 +39,7 @@ namespace Практикческое_занятие_1
                 Console.WriteLine("Введите возраст собаки");
                 Age = double.Parse(Console.ReadLine());
             }
+
 
             public void GetInfo()
             {
