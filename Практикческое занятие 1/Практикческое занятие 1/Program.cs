@@ -28,7 +28,12 @@ namespace Практикческое_занятие_1
 
                 SetInfo();
             }
-
+            public User(string name, string poroda, double age)
+            {
+                Name = name;
+                Poroda = poroda;
+                Age = age;
+            }
             public void SetInfo()
             {
                 Console.WriteLine("Введите имя собаки :");
