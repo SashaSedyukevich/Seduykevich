@@ -31,13 +31,13 @@ namespace Практикческое_занятие_1
 
             public void SetInfo()
             {
-                
+                Console.WriteLine("Введите имя собаки :");
                 Name = Console.ReadLine();
 
                 Console.WriteLine("Введите породу собаки ");
                 Poroda = Console.ReadLine();
                 Console.WriteLine("Введите возраст собаки");
-                Age = double.Parse(Console.ReadLine());
+                
             }
 
 
