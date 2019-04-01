@@ -37,7 +37,7 @@ namespace Практикческое_занятие_1
                 Console.WriteLine("Введите породу собаки ");
                 Poroda = Console.ReadLine();
                 Console.WriteLine("Введите возраст собаки");
-                
+                Age = double.Parse(Console.ReadLine());
             }
 
 
